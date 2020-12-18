@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
   <main>
     <header>
-      <img src="images/logo.svg" alt="logo-base-apparel">
+      <img src="./images/logo.svg" alt="logo-base-apparel">
     </header>
-
     <picture class="picture">
-      <source media="(min-width: 800px)" srcset="images/hero-desktop.jpg" class="hero-img">
-      <source media="(max-width: 799px)" srcset="images/hero-mobile.jpg" class="hero-mobile">
+      <source media="(min-width:800px)" srcset="./images/hero-desktop.jpg" class="hero-img">
+      <source media="(max-width:799px)" srcset="./images/hero-mobile.jpg" class="hero-mobile">
+      <img class="hero-img" src="./images/hero-mobile.jpg" alt="model-img">
     </picture>
-
     <section>
-      <h1 class="heading">We're <span>coming soon</span></h1>
+      <h1 class="heading"> We're <span>coming soon</span></h1>
       <form action="text" class="form">
         <label class="desc" for="email-input">
           Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date
           with announcements and our launch deals.
         </label>
         <br>
-        <input id="email-input" class="text-input" type="email" placeholder="Email Address">
-        <!-- <img class="caution-icon" src="./images/icon-error.svg" alt="exclamation-icon"> -->
+        <input id="email-input" class="text-input" type="text" placeholder="Email Address">
+        <img class="caution-icon" src="./images/icon-error.svg" alt="exclamation-icon">
         <button class="send-btn" type="submit">
-          <img src="images/icon-arrow.svg" alt="icon-arrow">
+          <img src="./images/icon-arrow.svg" alt="arrow">
         </button>
         <p class="caution">
           Please provide a valid email
@@ -41,11 +43,12 @@
     </section>
   </main>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+
+  <!-- We're coming soon
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+  Email Address -->
+  <script src="./index.js"></script>
 </body>
+
 </html>
